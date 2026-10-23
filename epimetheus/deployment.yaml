@@ -87,7 +87,7 @@ spec:
               memory: "64Mi"
             limits:
               cpu: "750m"
-              memory: "750Mi"
+              memory: "192Mi"
 
           # Is the process alive? A failing liveness probe restarts the pod.
           livenessProbe:
